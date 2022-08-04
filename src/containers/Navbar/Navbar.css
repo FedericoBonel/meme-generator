@@ -1,0 +1,25 @@
+.navbar-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 26px;
+    background: linear-gradient(90deg, #672280 1.18%, #a626d3 100%);
+    color: white;
+}
+
+.navbar-container_brand {
+    margin: 0;
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 24px;
+    letter-spacing: -0.1em;
+}
+
+.navbar-container_desc {
+    margin: 0;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 15px;
+    text-align: right;
+}
